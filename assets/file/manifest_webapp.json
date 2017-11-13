@@ -1,0 +1,16 @@
+{
+	"lang": "ko",
+	"default_locale": "ko",
+	"name": "트로스트 - 심리상담 메신저",
+	"short_name": "트로스트",
+	"icon": "http://trost.co.kr/favicon.ico",
+	"icons": [
+		{
+			"src": "http://trost.co.kr/favicon.ico",
+			"sizes": "180x180"
+		}
+	],
+	"start_url": "https://www.trost.co.kr/",
+	"display": "fullscreen",
+	"orientation": "portrait"
+}

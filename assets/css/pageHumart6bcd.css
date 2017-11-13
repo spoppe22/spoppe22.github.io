@@ -1,0 +1,183 @@
+div.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 180px;
+}
+
+strong, .strong {
+    font-family: NanumBarunGothicBold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+br.mobile {
+    display: none;
+}
+
+h2.hr {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px auto;
+    margin-right: 25px;
+    text-align: left;
+}
+
+div.history {
+    width: 90%;
+    margin: 120px auto;
+    margin-top: 140px;
+    text-align: left;
+    min-height: 200px;
+}
+
+div.history ul {
+    padding: 0px;
+    list-style: none;
+    width: 75%;
+    margin: 20px auto;
+    border: none;
+}
+
+div.history li {
+    margin: 0px;
+    padding: 5px 20px;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+}
+
+div.history li span {
+    margin-right: 25px;
+}
+
+hr.page-title-hr {
+    display: inline-block;
+    width: 80%;
+    height: 0px;
+    border: none;
+    border: none;
+    height: 1px;
+    background: #333333;
+    vertical-align: middle;
+}
+
+div.investors {
+    width: 90%;
+    margin: 50px auto;
+    text-align: left;
+    min-height: 200px;
+}
+
+div.investors div {
+    text-align: center;
+    height: 130px;
+    line-height: 130px;
+    margin-top: 40px;
+}
+
+div.investors div img {
+    cursor: default;
+    width: 168px;
+    height: 56px;
+    margin: 0px 55px 0px 55px;
+}
+
+div.partners {
+    width: 90%;
+    margin: 50px auto;
+    text-align: left;
+    min-height: 210px;
+}
+
+div.partners ul img {
+    cursor: default;
+    width: 168px;
+    height: 56px;
+    vertical-align: middle;
+}
+
+.bx-wrapper {
+    margin: 40px auto !important;
+    box-shadow: none !important;
+}
+
+.bx-viewport {
+    height: 68px !important;
+    vertical-align: middle !important;
+}
+
+a.bx-next {
+    margin: -6px -80px 0px 0px !important;
+    background: url("/assets/img/of_page/about-company/com_sld_bttnR.png") 100% no-repeat !important;
+}
+
+a.bx-next:hover {
+    background: url("/assets/img/of_page/about-company/com_sld_bttnR_.png") 100% no-repeat !important;
+}
+
+a.bx-prev {
+    margin: -6px 50px 0px -80px !important;
+    background: url("/assets/img/of_page/about-company/com_sld_bttnL.png") 100% no-repeat !important;
+}
+
+a.bx-prev:hover {
+    background: url("/assets/img/of_page/about-company/com_sld_bttnL_.png") 100% no-repeat !important;
+}
+
+@media (max-width: 1023px) {
+    br.mobile {
+        display: block;
+    }
+
+    div.wrapper {
+        padding-top: 150px;
+    }
+
+    hr.page-title-hr {
+        width: 98%;
+    }
+
+    div.history ul {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    div.history li {
+        padding: 5px 10px;
+    }
+
+    div.history ul li:first-child {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+
+    div.history li.strong {
+        margin-top: 20px;
+    }
+
+    div.history li span {
+        display: block;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    div.investors div {
+        height: auto;
+    }
+
+    div.bx-viewport div {
+        width: 278px !important;
+        text-align: center;
+    }
+
+    div.bx-viewport div img {
+        margin: 0px auto;
+    }
+
+    div.bx-controls {
+        display: none !important;
+    }
+}

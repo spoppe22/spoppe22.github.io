@@ -1,0 +1,239 @@
+.wrapper {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 200px;
+}
+
+br.mobile {
+    display: none;
+}
+
+strong, .strong {
+    font-family: NanumBarunGothicBold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+h1.page-title {
+    font-size: 2.375rem;
+    margin-top: 0px;
+}
+
+h3.sec {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin: 240px auto;
+    margin-bottom: 200px;
+}
+
+h2.hr {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px auto;
+    margin-right: 25px;
+    text-align: left;
+}
+
+p.page-describe {
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 0px auto;
+}
+
+div.bg-inside {
+    background: #f9f9f9;
+    margin: 0px auto;
+    padding: 0px;
+    margin-top: 65px;
+    padding: 80px 0px 40px 0px;
+}
+
+div.bg-inside div {
+    width: 1024px;
+    margin: 0px auto;
+}
+
+div.bg-inside div img {
+    width: 152px;
+    height: 96px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.bg-inside hr {
+    display: inline-block;
+    width: 80%;
+    height: 0px;
+    border: none;
+    border: none;
+    height: 1px;
+    background: #333333;
+    vertical-align: middle;
+}
+
+div.bg-inside div ul {
+    padding: 0px;
+    margin: 20px auto;
+    border: none;
+    list-style: none;
+    width: 600px;
+}
+
+div.bg-inside div li {
+    margin: 0px;
+    height: 130px;
+    text-align: left;
+}
+
+div.bg-inside div li p {
+    margin: 0px auto;
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.7rem;
+}
+
+table.join_list {
+    max-width: 1024px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table.join_list td {
+    padding: 10px 15px;
+    vertical-align: top;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-bottom: 90px;
+}
+
+table.join_list tbody tr > th {
+    padding-left: 15px;
+    height: 40px;
+    background-color: #606060;
+    color: #FFF;
+    font-family: NanumBarunGothicBold;
+}
+
+table.join_list thead th {
+    padding: 8px 4px;
+    font-size: 0.875rem;
+}
+
+table.join_list tr.pc {
+    display: table-row;
+}
+
+table.join_list tr.mobile {
+    display: none;
+}
+
+div.bg-inside-sec {
+    background: #f9f9f9;
+    margin: 0px auto;
+    padding: 0px;
+    padding: 100px 0px;
+}
+
+div.bg-inside-sec div {
+    width: 580px;
+    margin: 0px auto;
+}
+
+div.bg-inside-sec div p {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1023px) {
+    br.mobile {
+        display: block;
+    }
+
+    p.page-describe {
+        font-size: 0.9rem;
+        line-height: 1.33rem;
+    }
+
+    div.wrapper {
+        padding-top: 125px;
+    }
+
+    div.bg-inside {
+        margin-top: 100px;
+    }
+
+    div.bg-inside div {
+        width: auto;
+    }
+
+    div.bg-inside div * {
+        text-align: center !important;
+    }
+
+    div.bg-inside div h2 {
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.bg-inside div hr {
+        display: none;
+    }
+
+    div.bg-inside div ul {
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    div.bg-inside div li {
+        height: auto;
+        /*text-align:center;*/
+    }
+
+    div.bg-inside div li p {
+        margin: 0px auto;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 0.875rem;
+        text-align: left;
+    }
+
+    div.bg-inside div li img {
+        margin-top: 15px;
+    }
+
+    h3.sec {
+        margin: 160px auto;
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+
+    table.join_list td {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    table.join_list tr.pc {
+        display: none;
+    }
+
+    table.join_list tr.mobile {
+        display: block;
+    }
+
+    div.bg-inside-sec div {
+        width: 90%;
+    }
+
+    div.bg-inside-sec div p {
+        font-size: 0.875rem;
+    }
+}

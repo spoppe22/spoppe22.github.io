@@ -1,0 +1,157 @@
+@media (min-width: 1023px) {
+    .fs_4 {
+        font-size: 1rem;
+    }
+
+    .fs_5 {
+        font-size: 0.875rem;
+    }
+
+    .fs_6 {
+        font-size: 0.75rem;
+    }
+
+    footer.pc {
+        display: block;
+    }
+
+    footer.mobile {
+        display: none;
+    }
+
+    footer.pc {
+        line-height: 1rem;
+        background: #464646;
+        height: 310px;
+        padding: 24px 0px 55px 0px;
+    }
+
+    footer.pc ul.f_menu {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        color: #FFF;
+        margin-left: 80px;
+    }
+
+    footer.pc ul.f_menu li {
+        display: inline-block;
+        padding-right: 32px;
+    }
+
+    footer.pc img {
+        width: 120px;
+        height: 34px;
+        margin: 40px 0px 24px 80px;
+    }
+
+    footer.pc p {
+        margin-left: 80px;
+        color: #FFF;
+    }
+
+    footer.pc img#guide_floating {
+        display: block;
+        position: fixed;
+        right: 24px;
+        bottom: 40px;
+        width: 128px;
+        height: 48px;
+        cursor: pointer;
+    }
+
+    footer.pc div#guide_popup {
+        width: 221px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        position: fixed;
+        bottom: 40px;
+        right: 24px;
+        display: none;
+        margin: 0px auto;
+    }
+
+    footer.pc div#guide_popup img.close {
+        width: 13px;
+        height: 13px;
+        top: -25px;
+        right: 15px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    footer.pc div#guide_popup p:first-child {
+        color: #ffffff;
+        line-height: 40px;
+        text-align: center;
+        margin: 0px;
+        width: 190px;
+        height: 45px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #606060;
+        margin-bottom: 24px;
+    }
+
+    footer.pc div#guide_popup p {
+        margin: 0px;
+        padding: 0px 16px;
+        color: #333;
+    }
+
+    footer.pc div#guide_popup hr {
+        width: 189px;
+        height: 1px;
+        background: #606060;
+        border: none;
+        margin: 0px auto;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+}
+
+
+@media (max-width: 1023px) {
+    .fs-4 {
+        font-size: 12px;
+    }
+
+    footer.pc {
+        display: none;
+    }
+
+    footer.mobile {
+        display: block;
+        background: #464646;
+        padding: 16px;
+    }
+
+    footer.mobile ul.menu {
+        line-height: 1rem;
+        margin: 0px auto;
+        padding: 0px;
+        list-style: none;
+    }
+
+    footer.mobile ul.menu li {
+        display: inline-block;
+        color: #FFF;
+    }
+
+    footer.mobile ul.sns {
+        margin: 16px auto;
+        padding: 0px;
+        list-style: none;
+    }
+
+    footer.mobile ul.sns li {
+        display: inline-block;
+    }
+
+    footer.mobile p {
+        color: #FFF;
+        line-height: 1rem;
+    }
+
+}
